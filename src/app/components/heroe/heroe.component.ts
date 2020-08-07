@@ -12,6 +12,7 @@ export class HeroeComponent  {
   
   heroe:any={};
   
+
   constructor( private activatedRoute:ActivatedRoute,
                 private _heroesService: HeroesService
                  ) { 
