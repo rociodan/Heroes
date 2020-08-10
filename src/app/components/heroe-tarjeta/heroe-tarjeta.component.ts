@@ -13,6 +13,7 @@ export class HeroeTarjetaComponent implements OnInit {
  @Input() index: number;
  @Output () heroeSeleccionado: EventEmitter<number>;
 
+  // tslint:disable-next-line: no-trailing-whitespace
   constructor(private router: Router) { 
     this.heroeSeleccionado = new EventEmitter();
   }
